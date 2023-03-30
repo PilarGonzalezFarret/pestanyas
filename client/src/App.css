@@ -1,0 +1,63 @@
+body{
+ background-color: #282c34;
+ padding: 1rem;
+}
+
+.navTab{
+  width: 60rem;
+  height: 35rem;
+  margin: 0 auto;
+  border: 1px solid #61dafb;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.tabs{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  border: 1px solid #61dafb;
+  padding: 0.5rem;
+  border-radius: 10px;
+  height: 18%;
+}
+
+.tabView{
+  border: 1px solid #61dafb;
+  margin: 1rem;
+  border-radius: 10px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabItem{
+  display: inline-block;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid #61dafb;
+  margin: 1rem;
+  padding: 1.5rem;
+  color: aliceblue;
+  background-color: #282c34;
+  border-radius: 10px;
+}
+
+.tabItem:hover{
+  text-decoration: underline;
+}
+
+.selected{
+ background-color: #60749b;
+ color: #282c34;
+ }
+
+p{
+  color: pink;
+}
+/* Colores:
+background-color: #282c34;
+color: #61dafb;
+color: white; */
+
